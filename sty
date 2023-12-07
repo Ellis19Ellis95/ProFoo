@@ -40,13 +40,6 @@ footer {
     margin-top: 20px;
   }
   
-  
-
-
-
-
-
-
   .footer-list {
     list-style: none; /* Відключаємо маркери списку */
     display: flex; /* Розміщуємо елементи в рядок */
@@ -65,8 +58,7 @@ footer {
     fill: white; /* Задаємо колір логотипів */
   }
 
-  
-  
+
   .link {
     text-decoration: none;/* Відключаємо нижнє підкреслення */
   }
@@ -91,9 +83,6 @@ display: flex;
   margin-left: auto; /* Розташувати контейнер справа */
   }
  
-
- 
-
   .footer-item-link:hover .footer-item-svg > use,
   .footer-item-link:focus .footer-item-svg > use {
     fill: #E8E8E2; /* Колір самої іконки з рамкою */
@@ -134,22 +123,30 @@ display: flex;
   }
 
 
-  .footer-btn {
-    width: 336px;
-    height: 48px;
-    color: #E8E8E2;
-    /*background-color: transparent;*/
-    border: none;
-    border-radius: 50px
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Розташування внизу справа */
+    gap: 10px; /* Відстань між елементами */
   }
-
+  
   .footer-btn {
-    color: #010101; /* Колір для звичайного тексту кнопки */
+    width: 340px;
+    height: 48px;
+    color: #010101;
     background-color: #E8E8E2;
     border: none;
+    border-radius: 50px;
   }
+
   
   .footer-btn:hover,
   .footer-btn:focus {
     color: #6D8434; /* Колір при ховері або фокусі */
+  }
+
+  .column-1,
+  .column-2,
+  .column-3 {
+    margin-top: 0px; /* Однаковий відступ для всіх колонок */
   }
